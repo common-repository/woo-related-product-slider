@@ -1,0 +1,108 @@
+.wpl-woo-related-product-slider-section .wpl-wrps-products{
+    display: none;
+    margin-right:-20px;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-products.slick-initialized {
+    display: block;
+}
+.wpl-woo-related-product-slider-section{
+    overflow: hidden;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-section-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 17px;
+    line-height: 28px;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-item{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin-right: 20px;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-item:focus{
+    outline: none;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-price{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 12px;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-item .wpl-wrps-on-sale{
+    text-transform: uppercase;
+    position: absolute;
+    right: -32px;
+    top: 15px;
+    line-height: 20px;
+    width: 110px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #77a464;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 99;
+    -webkit-transition: background-color 400ms;
+    -o-transition: background-color 400ms;
+    transition: background-color 400ms;
+    -webkit-font-smoothing: antialiased;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-thumbnail{
+    display: block;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-thumbnail img{
+    width: 100%;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-add-to-card p{
+    padding: 0 !important;
+    border: 0 !important;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-add-to-card p a{
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+}
+.wpl-woo-related-product-slider-section .wpl-wrps-add-to-card p .woocommerce-Price-amount,
+.wpl-woo-related-product-slider-section .wpl-wrps-add-to-card p ins,
+.wpl-woo-related-product-slider-section .wpl-wrps-add-to-card p del,
+.wpl-woo-related-product-slider-section .wpl-wrps-add-to-card p .added{
+    display: none;
+}
+.wpl-woo-related-product-slider-section .slick-prev,
+.wpl-woo-related-product-slider-section .slick-next{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 18px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    z-index: 9;
+    cursor: pointer;
+}
+.wpl-woo-related-product-slider-section .slick-prev{
+    top: -45px;
+    right: 55px;
+}
+.wpl-woo-related-product-slider-section .slick-next{
+    top: -45px;
+    right: 20px;
+}
